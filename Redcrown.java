@@ -31,8 +31,8 @@ public class Redcrown
             new Rectangle(0,0,128,176),
             new Rectangle(0,0,481,33),
             new Rectangle(352,0,128,176),
-            new Rectangle(0,0,8,360),
-            new Rectangle(472,0,8,360),
+            new Rectangle(0,0,8,3600),
+            new Rectangle(472,0,8,3600),
             new Rectangle(184,273,112,48)
         };
         return ans;

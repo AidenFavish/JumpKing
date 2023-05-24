@@ -23,7 +23,6 @@ public class Collisions
 {
     // Right = 1, Left = 2, Top = 3, Bottom = 4
 
-
     public static int collide(Rectangle r1, Rectangle r2)
     {
         if (r1.x + r1.getWidth() > r2.x && r2.x > r1.x 
