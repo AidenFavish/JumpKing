@@ -130,6 +130,8 @@ public class Jumpking extends ApplicationAdapter//A Pong object IS A Application
         tempBool = collision();
         king.canWalk = tempBool;
         king.isFalling = !tempBool;
+        if (king.isFalling)
+            currentSprite = king.getFallSprite();
 
         Rectangle[] platform = Redcrown.r1();
         batch.begin();

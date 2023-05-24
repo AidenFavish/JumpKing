@@ -95,6 +95,22 @@ public class Player
         hitbox.setX(x);
         hitbox.setY(y);
     }
+    
+    public Texture getFallSprite() {
+        if (!facingLeft) {
+            if (velocity.y < 0) {
+                return rightsprite(4);
+            } else {
+                return rightsprite(3);
+            }
+        } else {
+            if (velocity.y < 0) {
+                return leftsprite(4);
+            } else {
+                return leftsprite(3);
+            }
+        }
+    }
 
     /**
      * called every time you hold the space bar
